@@ -25,14 +25,7 @@ checkbox.addEventListener("change", function(event){
     }
 })
 
-// LOCAL STORAGE
 
-function save() {
-    localStorage.setItem("checkbox1", checkbox.checked);
-    }
-    //for loading.
-    var checked = JSON.parse(localStorage.getItem("checkbox1"));
-    checkbox.checked = checked;
 
 
 
